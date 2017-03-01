@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_margin="@dimen/size_30_dip"
+        android:background="@drawable/alert_dialog_round_bg_white"
+        android:padding="@dimen/size_10_dip">
+
+        <TextView
+            android:id="@+id/alert_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/download_apk_alert_title"
+            android:textColor="@color/blue_sky_alpha"
+            android:textSize="@dimen/size_24_dip"
+            android:textStyle="bold"/>
+
+        <View
+            android:id="@+id/alert_dialog_view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/alert_dialog_title"
+            android:layout_marginLeft="@dimen/size_8_dip"
+            android:layout_marginRight="@dimen/size_8_dip"
+            android:layout_marginTop="@dimen/size_8_dip"
+            android:background="@color/blue_sky"/>
+
+        <TextView
+            android:id="@+id/alert_dialog_latest_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alert_dialog_view"
+            android:layout_marginLeft="@dimen/size_8_dip"
+            android:layout_marginRight="@dimen/size_8_dip"
+            android:layout_marginTop="@dimen/size_15_dip"
+            android:text="@string/download_apk_alert_latest_version"
+            android:textColor="@color/gray_hard"
+            android:textSize="@dimen/size_17_dip"/>
+
+        <TextView
+            android:id="@+id/alert_dialog_latest_version_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alert_dialog_latest_version"
+            android:layout_marginLeft="@dimen/size_8_dip"
+            android:layout_marginRight="@dimen/size_8_dip"
+            android:text="@string/download_apk_alert_latest_version_size"
+            android:textColor="@color/gray_hard"
+            android:textSize="@dimen/size_17_dip"/>
+
+        <TextView
+            android:id="@+id/alert_dialog_update_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ignore_checkbox"
+            android:layout_below="@id/alert_dialog_latest_version_size"
+            android:layout_marginBottom="@dimen/size_15_dip"
+            android:layout_marginLeft="@dimen/size_8_dip"
+            android:layout_marginRight="@dimen/size_8_dip"
+            android:layout_marginTop="@dimen/size_15_dip"
+            android:scrollbars="vertical"
+            android:text="@string/download_apk_alert_update_info"
+            android:textColor="@color/gray_hard"
+            android:textSize="@dimen/size_17_dip"/>
+
+        <CheckBox
+            android:id="@+id/ignore_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/alert_dialog_confirm"
+            android:checked="false"
+            android:text="@string/download_apk_ignore_this_version"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/alert_dialog_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/size_8_dip"
+            android:layout_marginRight="@dimen/size_8_dip"
+            android:background="@drawable/alert_dialog_round_bg_blue"
+            android:gravity="center"
+            android:paddingBottom="@dimen/size_8_dip"
+            android:paddingTop="@dimen/size_8_dip"
+            android:text="@string/download_apk_alert_button_confirm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_17_dip"
+            app:layout_widthPercent="50%"/>
+
+        <Button
+            android:id="@+id/alert_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/size_8_dip"
+            android:layout_toRightOf="@id/alert_dialog_confirm"
+            android:background="@drawable/alert_dialog_round_bg_light_gray"
+            android:gravity="center"
+            android:paddingBottom="@dimen/size_8_dip"
+            android:paddingTop="@dimen/size_8_dip"
+            android:text="@string/download_apk_alert_button_cancel"
+            android:textColor="@color/gray_hard"
+            android:textSize="@dimen/size_17_dip"
+            app:layout_widthPercent="50%"/>
+    </android.support.percent.PercentRelativeLayout>
+
+</RelativeLayout>

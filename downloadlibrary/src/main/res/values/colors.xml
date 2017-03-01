@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="clear">#00000000</color>
+    <color name="gray_light">#FFAAAAAA</color>
+    <color name="gray_xlight">#F5F5F5</color>
+    <color name="gray">#FF888888</color>
+    <color name="gray_re">#e1e1e1</color>
+    <color name="gray_hard">#FF444444</color>
+    <color name="gray_alpha">#88888888</color>
+    <color name="gray_alpha_re">#EBEBEB</color>
+    <color name="gray_hard_alpha">#88444444</color>
+    <color name="gray_action_bar">#B7B7B7</color>
+    <color name="black">#FF000000</color>
+    <color name="alpha_black">#99000000</color>
+    <color name="alpha_black_light">#99000000</color>
+    <color name="alpha_black_list">#75000000</color>
+    <color name="alpha_black_guide">#A0000000</color>
+    <color name="alpha_gray_light">#20000000</color>
+    <color name="fake_user_guide">#FF11191c</color>
+    <color name="red">#FFFF0000</color>
+    <color name="orange">#FFFF8800</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="green">#FF00FF00</color>
+    <color name="cyan">#FF00FFFF</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="blue_sky">#0098F0</color>
+    <color name="blue_sky_alpha">#5AB0EB</color>
+    <color name="blue_sky_share_edittext">#58c5c2</color>
+    <color name="gray_blue">#6C7B8B</color>
+    <color name="violet">#FF8800FF</color>
+    <color name="blue_bg">#FF284489</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_alpha">#88ffffff</color>
+    <color name="white_alpha_light">#22ffffff</color>
+    <color name="white_alpha_hard">#eeffffff</color>
+    <color name="blue_login">#0098F0</color>
+
+    <color name="color_hometypechoose_text">#007afc</color>
+    <color name="color_vod_title_text">#0098F0</color>
+
+    <color name="color_bus_aroud_red">#e5004f</color>
+
+    <color name="yellow_bus">#fdd355</color>
+
+    <color name="green_bus_around_item">#73b757</color>
+    <color name="yellow_bus_around_item">#e99f35</color>
+    <color name="red_bus_around_item">#e35c4c</color>
+    <color name="purple_bus_around_item">#937aba</color>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="blue_light">#B8378DAC</color>
+    <color name="text">#1E1E1E</color>
+    <color name="online_limit_v_line_color">#0098F0</color>
+    <color name="epg_online_limit_v_line_color">#ff5400</color>
+
+    <color name="fav_item_distance_station">#fc5102</color>
+    <color name="fav_item_start_or_end_station">#acacac</color>
+    <color name="search_bus_bar_bg">#fdd355</color>
+    <color name="search_bus_search_box_hint_color">#c8b14f</color>
+    <color name="bus_line_detail_station_unarrive_color">#959595</color>
+    <color name="epg_actionbar_color">#df2f31</color>
+    <color name="alpha_gray">#e3000000</color>
+
+    <color name="radio_green">#2FC8AC</color>
+    <color name="gray_radio_timer_divider">#D7D7D7</color>
+    <color name="radio_clock_edit_seekbar_bg">#007afc</color>
+
+    <color name="paike_font_orange_color">#fc461f</color>
+    <color name="paike_font_gray_color">#555555</color>
+    <color name="paike_font_gray_re_color">#7d7d7d</color>
+    <color name="paike_font_black_color">#262626</color>
+    <color name="paike_progressbar">#7ed321</color>
+    <color name="paike_progressbar_bg">#d8d8d8</color>
+    <color name="paike_comment_more_msg_text_color">#FF808080</color>
+    <color name="dragview_delete_bg">#ff3b30</color>
+
+    <color name="camera_bg">#2c2c2c</color>
+    <color name="camera_progress">#2980B9</color>
+    <color name="camera_progress_split">#000000</color>
+    <color name="camera_progress_three">#FF0000</color>
+    <color name="camera_progress_overflow">#1b5d89</color>
+    <color name="camera_theme_selected_bgcolor">#2980B9</color>
+    <color name="camera_bottom_press_bg">#1b1c1f</color>
+    <color name="title_background_color">#ff7c1c</color>
+    <color name="camera_progress_delete">#fc461f</color>
+
+    <color name="translucent_background_80">#CC000000</color>
+    <color name="translucent_background_50">#7f000000</color>
+    <color name="transparent_black_40">#66000000</color>
+    <color name="transparent_black_85">#DA000000</color>
+    <color name="transparent_black_30">#4D000000</color>
+    <color name="paike_preview_bg">#222222</color>
+
+    <color name="attention_view_pager_selector">#FFE8E8E8</color>
+    <color name="home_actionbar_color">#0098F0</color>
+    <color name="home_action_bar_blue_re">#afd4f6</color>
+    <color name="home_action_bar_status_bar_color">#0085D9</color>
+    <color name="shake_actionbar_bg">#ff222222</color>
+    <color name="register_login_bg">#f4f5f9</color>
+
+    <color name="social_comm_location_text_color">#9b9b9b</color>
+    <color name="umeng_comm_lv_header_color1">#A1A1A1</color>
+    <color name="umeng_comm_lv_header_color2">#BFBFBF</color>
+    <color name="umeng_comm_lv_header_color3">#DDDDDD</color>
+    <color name="umeng_comm_lv_header_color4">#DEDEDE</color>
+    <color name="paikequan_state_connecting">#f5a623</color>
+    <color name="paikequan_state_connected">#7ed321</color>
+    <color name="gift_msg_color">#E79E26</color>
+
+    <color name="chat_room_blue_text_color">#50E3C2</color>
+    <color name="chat_room_orange_text_color">#F5A623</color>
+    <color name="chat_room_green_text_color">#7ED321</color>
+    <color name="chat_room_red_text_color">#D0021B</color>
+
+    <color name="vod_detail_name_font_black_color">#1F1F1F</color>
+    <color name="vod_detail_video_list_show_all">#0098F0</color>
+    <color name="score_tv">#ff9e0d</color>
+
+    <color name="color_searchbox_bg">#eeeff3</color>
+    <color name="color_divider_line">#d6d6d6</color>
+    <color name="color_send_btn_text">#117dff</color>
+    <color name="color_contribution_text">#906306</color>
+
+
+    <color name="epg_controller_btn_color">#f7f7fa</color>
+    <color name="epg_bg_color">#efeff4</color>
+    <color name="epg_online_title_checked_bg_color">#eaeaea</color>
+    <color name="epg_online_title_unchecked_bg_color">#fafafa</color>
+    <color name="epg_online_list_item_selected_bg_color">#e5e5e5</color>
+    <color name="epg_viewpager_title_color">#353535</color>
+
+    <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">#e0e0e0</color>
+    <color name="online_game_blue_color">#218dfb</color>
+</resources>

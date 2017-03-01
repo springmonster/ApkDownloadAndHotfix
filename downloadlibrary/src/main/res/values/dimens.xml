@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_8_dip">8dip</dimen>
+    <dimen name="size_10_dip">10dip</dimen>
+    <dimen name="size_11_dip">11dip</dimen>
+    <dimen name="size_13_dip">13dip</dimen>
+    <dimen name="size_15_dip">15dip</dimen>
+    <dimen name="size_17_dip">17dip</dimen>
+    <dimen name="size_22_dip">22dip</dimen>
+    <dimen name="size_23_dip">23dip</dimen>
+    <dimen name="size_24_dip">24dip</dimen>
+    <dimen name="size_30_dip">30dip</dimen>
+</resources>
