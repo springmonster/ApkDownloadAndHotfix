@@ -10,7 +10,6 @@ import com.wisetv.networklibrary.log.WTLog;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.Call;
@@ -107,15 +106,12 @@ public class OkHttpWTRequestCall extends WTRequestCall {
     private Headers generateOkHttpHeaders() {
         Headers.Builder builder = new Headers.Builder();
 
-        Set<Map.Entry<String, String>> entries = mHeaders.entrySet();
-        if (entries != null) {
-            Iterator iterator = entries.iterator();
-            while (iterator.hasNext()) {
-                Map.Entry<String, String> entry = (Map.Entry) iterator.next();
-                String key = entry.getKey();
-                String value = entry.getValue();
-                builder.add(key, value);
-            }
+        Iterator iterator = mHeaders.entrySet().iterator();
+        while (iterator.hasNext()) {
+            Map.Entry<String, String> entry = (Map.Entry) iterator.next();
+            String key = entry.getKey();
+            String value = entry.getValue();
+            builder.add(key, value);
         }
         return builder.build();
     }
@@ -124,15 +120,12 @@ public class OkHttpWTRequestCall extends WTRequestCall {
     private RequestBody generateOkHttpBodyParams() {
         FormBody.Builder builder = new FormBody.Builder();
 
-        Set<Map.Entry<String, String>> entries = mBodyParams.entrySet();
-        if (entries != null) {
-            Iterator iterator = entries.iterator();
-            while (iterator.hasNext()) {
-                Map.Entry<String, String> entry = (Map.Entry) iterator.next();
-                String key = entry.getKey();
-                String value = entry.getValue();
-                builder.add(key, value);
-            }
+        Iterator iterator = mBodyParams.entrySet().iterator();
+        while (iterator.hasNext()) {
+            Map.Entry<String, String> entry = (Map.Entry) iterator.next();
+            String key = entry.getKey();
+            String value = entry.getValue();
+            builder.add(key, value);
         }
         return builder.build();
     }

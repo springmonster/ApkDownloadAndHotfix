@@ -69,7 +69,9 @@ public abstract class WTRequestCall {
         }
 
         public Builder params(Map<String, String> bodyParams) {
-            mBodyParams = bodyParams;
+            if (bodyParams != null) {
+                mBodyParams = bodyParams;
+            }
             return this;
         }
 
@@ -79,7 +81,9 @@ public abstract class WTRequestCall {
         }
 
         public Builder headers(Map<String, String> headers) {
-            mHeaders = headers;
+            if (headers != null) {
+                mHeaders = headers;
+            }
             return this;
         }
 
