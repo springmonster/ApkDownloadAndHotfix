@@ -1,14 +1,7 @@
 package com.wisetv.networklibrary.consuming;
 
-import android.annotation.TargetApi;
-import android.os.Build;
-import android.os.Environment;
 import android.util.LogPrinter;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -90,19 +83,5 @@ public class WTNetworkTimeConsumingPrinter implements WTNetworkTimeConsuming {
         mLog.println("║────────────────────────────────────────────────────────────────────────────────");
         mLog.println("║ Response result : " + responseResult);
         mLog.println("╚════════════════════════════════════════════════════════════════════════════════");
-
-        saveLog(mWTNetworkTimeConsumingUtil.getTimeSpan());
-    }
-
-    @TargetApi(Build.VERSION_CODES.KITKAT)
-    private void saveLog(long timeSpan) {
-        File file = new File(Environment.getExternalStorageDirectory(), "NetworkConsuming.txt");
-
-        try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file, true))) {
-            bufferedWriter.write(String.valueOf(timeSpan) + "\n");
-            bufferedWriter.flush();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }
